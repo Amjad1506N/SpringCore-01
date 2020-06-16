@@ -36,7 +36,7 @@ public class MainApp {
 		 * Here getBean(-) return's the object 
 		 */
 		Wish wish=factory.getBean("wish",Wish.class);
-	
+	          System.out.println(wish +"Hello");
 	
 
 	}
